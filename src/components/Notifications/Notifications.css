@@ -1,0 +1,19 @@
+.notification-list {
+  background: #fff;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.notification-item {
+  border-bottom: 1px solid #eee;
+  padding: 8px 4px;
+  font-size: 14px;
+  color: #333;
+}
+
+.notification-item:last-child {
+  border-bottom: none;
+}
